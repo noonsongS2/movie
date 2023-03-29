@@ -1,0 +1,111 @@
+* {
+  font-family: 'Nanum Gothic', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#disneycastle {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto
+}
+
+.service {
+  text-align: center;
+}
+
+#subscribe {
+  font-size: 16px;
+  color: gray;
+  margin: 14px;
+}
+
+#email {
+  margin: 10px;
+  padding: 4px;
+  background-color: rgba(88, 87, 87, 0.5) ;
+  color: white;
+  border: 0px hidden;
+  border-radius: 8px;
+  width: 500px;
+  height: 30px;
+}
+
+#btn {
+  margin: 10px;
+  padding: 4px;
+  font-weight: bold;
+  background-color: rgba(48, 141, 223, 0.833);
+  border: 0px hidden;
+  border-radius: 8px;
+  width: 500px;
+  height: 30px;
+}
+
+#price {
+  font-size: 13px;
+  line-height: 20px;
+  color: gray;
+}
+
+section {
+  margin: 100px;
+  text-align: center;
+}
+
+.description {
+  padding: 30px;
+  color: rgba(255, 255, 255, 0.6)
+}
+
+.minisection {
+  border-bottom: 1px solid white;
+  border-width: 5%;
+}
+
+.container {
+  text-align: left;
+  margin: 50px auto;
+}
+
+.container img {
+  width: 32px;
+  height: 32px;
+}
+
+.moviethumbnails, .projectorthumbnails {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.movieitem, .projectoritem {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 10px;
+  border: 0px hidden;
+  border-radius: 10px;
+}
+
+ul {
+  display: grid;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
